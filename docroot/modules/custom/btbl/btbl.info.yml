@@ -1,0 +1,11 @@
+name: Beyond the Black Line Login
+type: module
+description: 'Allows BTBL website to use credentials in CRM.'
+package: BTBL
+# core: 8.x
+configure: btbl.settings
+
+version: '8.x'
+core: '8.x'
+project: 'btbl'
+datestamp: 1493037549

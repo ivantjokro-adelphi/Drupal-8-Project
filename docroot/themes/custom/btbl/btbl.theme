@@ -1,0 +1,36 @@
+<?php
+
+
+/**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ */
+function btbl_preprocess_html(&$variables) {
+  
+  var_dump("BBBBBB");
+}
+
+function btbl_preprocess_page(&$variables, $hook) {
+  var_dump("aaaaa");
+  // dpr("oh my god... nonono");
+  // dpm("oh my god... nononono");
+}
+
+function btbl_webform_component_load() {
+  var_dump("testing load");
+}
+function btbl_webform_submission_insert($node, $submission) {
+  dpm("testing insert"); exit();
+}
+
+function btbl_form_alter(&$form, &$form_state, $form_id) {
+  if (strpos($form_id, 'webform_submission_user_login') !== FALSE) {
+    $function_name = __FUNCTION__ . '_'. $form['#form_id'] . '__submit';
+    $form['actions']['submit']['#submit'][] = $function_name;
+  }
+}
+
+function btbl_form_alter_webform_submission_user_login_node_4_form__submit($form, &$form_state) { 
+  var_dump("nnnnnn"); exit();
+}
+
+//function 

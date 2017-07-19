@@ -1,0 +1,22 @@
+uuid: 2a9d47f8-a542-46f0-917e-08ca6db7b254
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - btbl
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: btbl_breadcrumbs
+theme: btbl
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
