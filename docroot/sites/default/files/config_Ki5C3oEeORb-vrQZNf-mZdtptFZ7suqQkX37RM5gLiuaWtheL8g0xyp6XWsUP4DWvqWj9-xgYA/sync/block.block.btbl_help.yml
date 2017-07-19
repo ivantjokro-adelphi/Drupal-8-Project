@@ -1,0 +1,22 @@
+uuid: 376b5fb4-eca9-4227-b6e8-e9b72d8d96d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - btbl
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: btbl_help
+theme: btbl
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

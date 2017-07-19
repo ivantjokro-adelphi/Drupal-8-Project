@@ -1,0 +1,12 @@
+global-css:
+  version: VERSION
+  css:
+    base:
+      css/base/styles.css: {}
+    layout:
+      css/layout.css: {}
+    theme:
+      '//fonts.googleapis.com/css?family=Pacifico': { type: external }
+      css/main.css: {}
+      css/elements.css: {}
+      css/views.css: {}

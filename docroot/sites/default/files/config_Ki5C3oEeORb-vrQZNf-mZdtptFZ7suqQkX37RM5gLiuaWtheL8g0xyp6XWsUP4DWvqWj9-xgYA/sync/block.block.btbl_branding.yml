@@ -1,0 +1,25 @@
+uuid: 956524fd-6911-4b97-b4dc-4017b0308936
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - btbl
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: btbl_branding
+theme: btbl
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

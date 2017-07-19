@@ -1,0 +1,20 @@
+uuid: 4166fd2d-44f7-4f98-a696-0157be462e93
+langcode: en
+status: true
+dependencies:
+  theme:
+    - btbl
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: btbl_page_title
+theme: btbl
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

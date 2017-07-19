@@ -1,0 +1,20 @@
+uuid: f2d3e820-8264-4017-8fb1-7d3e87aa35cd
+langcode: en
+status: true
+dependencies:
+  theme:
+    - btbl
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: btbl_local_actions
+theme: btbl
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
