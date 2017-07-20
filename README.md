@@ -45,7 +45,6 @@ Framework and Modules
 - [Symfony](https://symfony.com/)
 - [Composer](https://getcomposer.org/)
 - [Devel](https://www.drupal.org/project/devel)
-- [Devel](https://www.drupal.org/project/devel)
 - [Paragraph](https://www.drupal.org/project/paragraphs)
 - [Workbench](https://www.drupal.org/project/workbench)
 
