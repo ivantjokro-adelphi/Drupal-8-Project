@@ -46,8 +46,8 @@ Framework and Modules
 - [Composer](https://getcomposer.org/)
 - [Devel](https://www.drupal.org/project/devel)
 - [Devel](https://www.drupal.org/project/devel)
-- [Paragraph] (https://www.drupal.org/project/paragraphs)
-- [Workbench] (https://www.drupal.org/project/workbench)
+- [Paragraph](https://www.drupal.org/project/paragraphs)
+- [Workbench](https://www.drupal.org/project/workbench)
 
 JavaScript
 - [Browserify](http://browserify.org/) with ES6/2015 support through [Babel](https://babeljs.io/)
