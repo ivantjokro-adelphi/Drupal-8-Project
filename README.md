@@ -10,9 +10,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-* [Web Server Requisites](https://www.drupal.org/docs/8/system-requirements/web-server).
-* [Symfony](https://symfony.com/).
-* [Composer](https://getcomposer.org/).
+* [Web Server Requisites](https://www.drupal.org/docs/8/system-requirements/web-server)
+* [Symfony](https://symfony.com/)
+* [Composer](https://getcomposer.org/)
 * PHP version 5.6.5+ recommended
 * MySQL 5.5.3+ recommended
 
