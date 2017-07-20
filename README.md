@@ -10,13 +10,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-```
-[Web Server Requisites](https://www.drupal.org/docs/8/system-requirements/web-server).
-[Symfony](https://symfony.com/).
-[Composer](https://getcomposer.org/).
-PHP version 5.6.5+ recommended
-MySQL 5.5.3+ recommended
-```
+* [Web Server Requisites](https://www.drupal.org/docs/8/system-requirements/web-server).
+* [Symfony](https://symfony.com/).
+* [Composer](https://getcomposer.org/).
+* PHP version 5.6.5+ recommended
+* MySQL 5.5.3+ recommended
 
 ### Deployment
 
@@ -43,7 +41,7 @@ $ mysql -u userproject -p db_project < db_project_10_07_2017.sql
 ## Technologies used
 
 Framework and Modules
-- [Drupal 8] (https://www.drupal.org/8)
+- [Drupal 8](https://www.drupal.org/8)
 - [Symfony](https://symfony.com/)
 - [Composer](https://getcomposer.org/)
 - [Devel](https://www.drupal.org/project/devel)
@@ -85,7 +83,7 @@ We use [Bitbucket](https://bitbucket.org/) for versioning.
 
 ## Authors
 
-* **Ivan Tjokrodinata** - *Initial work* - [Ivan](https://github.com/ivantjokro-adelphi)
+* [**Ivan Tjokrodinata**](https://github.com/ivantjokro-adelphi) - *Initial work*
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
